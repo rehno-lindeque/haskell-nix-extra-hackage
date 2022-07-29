@@ -11,3 +11,4 @@ executable myapp
     build-depends:
         base
         , mydep
+        , my-named-dep

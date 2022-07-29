@@ -14,3 +14,11 @@ library
     build-depends:
         base
         , mydepdep
+
+library my-named-dep
+    exposed-modules:
+        MyNamedDep
+    setup-depends:
+        Cabal
+    build-depends:
+        base
